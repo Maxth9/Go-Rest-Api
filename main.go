@@ -35,7 +35,7 @@ func landingPage(w http.ResponseWriter, r *http.Request){
 func handleRequest(){
 	r := mux.NewRouter().StrictSlash(true)
 	r.HandleFunc("/", landingPage)
-	r.HandleFunc("/test", TestingFunc).Method("Get")
+	r.HandleFunc("/test", TestingFunc).Method("GET")
 	r.HandleFunc("/test", TestingPostFunc).Method("POST")
 	r.Fatal(http.ListenAndServe(":8081", r))
 }
