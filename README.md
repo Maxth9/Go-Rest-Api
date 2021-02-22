@@ -1,4 +1,3 @@
-# Restful API In Go
- - Simple Restful API!
+# Restful API with Go using Mux
+ - Simple Restful API with Mux!
  - I'll try to build a API with GraphQL
- - Also Will update this with Mux!
