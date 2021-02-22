@@ -1,2 +1,2 @@
-# ucp
-A ucp with svelte and js 
+# Restful API In Go
+Simple Restful API!
