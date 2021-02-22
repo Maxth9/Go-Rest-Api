@@ -12,9 +12,9 @@ func landingPage(w http.ResponseWriter, r *http.Request){
 
 func handleRequest(){
 	http.HandleFunc("/", landingPage)
-	log.Fatalf(http.ListenAndServe(":8081", nil))
+	log.Fatal(http.ListenAndServe(":8081", nil))
 }
 
 func main() {
-	
+	handleRequest()
 }
